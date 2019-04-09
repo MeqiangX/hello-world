@@ -9,7 +9,7 @@ This is a simple demo of github repository
 
 ### try to add some code
 
-1.java
+1. java
 
 ```java
 
