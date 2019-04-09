@@ -1,26 +1,23 @@
 # hello-world
 This is a simple demo of github repository
 
-## this is my new dev branch (#^.^#)
-
-> start run....
-
-1. change and commit + description
-
-### try to add some code
-
-1. java
-
-```java
-
-public CodeTest{
-  
-  public static void main(String[] args){
+# 学习github
+1. 创建repository and 创建项目
+  1. 从github web 上创建
+    > 直接将本地项目 拖入 (但是要小于100个文件)
+  2. 从git bash 上 创建
+    1. 打开git bush  配置上user.name 和 user.email 为github 创建时候的 账号和邮箱
+      > git config --global user.name "MeqiangX"
+      > git config --global user.email "xiaoqiang9611@gmail.com"
+    2. 设置SSH key
+    3. 生成ssh key 
+       > 检查是否已经生成了秘钥 cd ~/.ssh 如果返回了三个文件 则生成了 但是也要注意是否是 上次配置时候的账户和邮箱生成的，如果是则需要重新配置之后再次生成
+       > 如果没有或者需要重新生成则通过： ssh-keygen -t rsa -C "xiaoqiang9611@gmail.com" 过程按默认的就好 然后生成之后打开 id_rsa.pub 的秘钥 copy到github 的add sshkey 
+    4. 完成上述步骤之后就可以开始 创建本地仓库了
+      1. 进入要项目目录
+      2. 执行 git init 初始化本地仓库 会发现多了一个.git 版本控制文件夹
+      3. 执行 git add .将所有文件添加到仓库
+      4. 执行 git commit -m '注释提交文件'
+      5. 关联github 仓库
       
-      System.out.println("hello world");
-      
-  }
-  
-}
-
-```
+    
