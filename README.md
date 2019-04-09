@@ -16,8 +16,8 @@ This is a simple demo of github repository
     4. 完成上述步骤之后就可以开始 创建本地仓库了
       1. 进入要项目目录
       2. 执行 git init 初始化本地仓库 会发现多了一个.git 版本控制文件夹
-      3. 执行 git add .将所有文件添加到仓库
-      4. 执行 git commit -m '注释提交文件'
+      3. 执行 git add .将所有文件添加到仓库 (git init 之后 创建了一个空的.git 而.git是不能管理空文件夹的，需要add .将当前文件夹所有的文件都交由.git来管理)
+      4. 执行 git commit -m '注释提交文件' 提交
       5. 关联github 仓库
       
     
