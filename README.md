@@ -19,5 +19,11 @@ This is a simple demo of github repository
       3. 执行 git add .将所有文件添加到仓库 (git init 之后 创建了一个空的.git 而.git是不能管理空文件夹的，需要add .将当前文件夹所有的文件都交由.git来管理)
       4. 执行 git commit -m '注释提交文件' 提交
       5. 关联github 仓库
+        > 到github 的项目repository 复制仓库地址  执行命令 : git remote add origin https://github.com/MeqiangX/mediamanagesys-parent.git 然后上传本地代码到远程仓库 git push -u origin master 
+      
+     
+     6. finshed 可以在远程仓库上看到我们的项目了
+     
+     7. 之后就可以创建分支 拉取 然后操作了
       
     
